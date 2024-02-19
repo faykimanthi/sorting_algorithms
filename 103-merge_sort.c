@@ -42,7 +42,7 @@ void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
  * @subarr: This is a subarray of an array of integers to sort.
  * @buff: This is a buffer to store the sorted result.
  * @front: This is the front index of the subarray.
- * @back: The back index of the subarray.
+ * @back: This is the back index of the subarray.
  */
 void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back)
 {
@@ -58,7 +58,7 @@ void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back)
 }
 
 /**
- * merge_sort - Sort an array of integers in ascending
+ * merge_sort - This sorts an array of integers in ascending
  *              order using the merge sort algorithm.
  * @array: Represents an array of integers.
  * @size: This is the size of the array.

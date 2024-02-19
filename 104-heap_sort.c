@@ -5,9 +5,9 @@ void max_heapify(int *array, size_t size, size_t base, size_t root);
 void heap_sort(int *array, size_t size);
 
 /**
- * swap_ints - Swap two integers in an array.
- * @x: The first integer to swap.
- * @y: The second integer to swap.
+ * swap_ints - This swaps two integers in an array.
+ * @x: Represents the first integer to swap.
+ * @y: Represents the second integer to swap.
  */
 void swap_ints(int *x, int *y)
 {
@@ -49,8 +49,8 @@ void max_heapify(int *array, size_t size, size_t base, size_t root)
 /**
  * heap_sort - Sort an array of integers in ascending
  *             order using the heap sort algorithm.
- * @array: An array of integers.
- * @size: The size of the array.
+ * @array: Represents an array of integers.
+ * @size: This is the size of the array.
  *
  * Description: Implements the sift-down heap sort
  * algorithm. Prints the array after each swap.
