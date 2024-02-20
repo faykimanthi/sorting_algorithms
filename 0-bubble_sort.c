@@ -1,4 +1,5 @@
 #include "sort.h"
+
 /**
  * bubble_sort - This sorts array lements from min to max value
  * @array: Represents an array

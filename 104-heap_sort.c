@@ -20,7 +20,7 @@ void swap_ints(int *x, int *y)
 
 /**
  * max_heapify - Turn a binary tree into a complete binary heap.
- * @array: An array of integers representing a binary tree.
+ * @array: Represents an array of integers representing a binary tree.
  * @size: The size of the array/tree.
  * @base: The index of the base row of the tree.
  * @root: The root node of the binary tree.
